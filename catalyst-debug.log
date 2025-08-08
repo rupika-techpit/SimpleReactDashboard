@@ -1,0 +1,1634 @@
+[debug] [2025-07-25T05:20:00.830Z] : 
+[debug] [2025-07-25T05:20:00.833Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T05:20:00.834Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-07-25T05:20:00.835Z] : CLI Version:  1.20.1
+[debug] [2025-07-25T05:20:00.835Z] : Platform:     win32
+[debug] [2025-07-25T05:20:00.835Z] : Node Version: v22.14.0
+[debug] [2025-07-25T05:20:00.835Z] : Time:         Fri Jul 25 2025 10:50:00 GMT+0530 (India Standard Time)
+[debug] [2025-07-25T05:20:00.836Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T05:20:00.836Z] : 
+[debug] [2025-07-25T05:20:01.347Z] : > authorizing via signed-in user option
+[debug] [2025-07-25T05:20:01.347Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-07-25T05:20:01.366Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-07-25T05:20:02.301Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 05:20:00 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T05:20:02.305Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-07-25T05:20:02.582Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 05:20:00 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T05:20:04.572Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2025-07-25T05:20:04.720Z] : No basic functions to add
+[info] [2025-07-25T05:20:07.646Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-07-25T05:20:07.649Z] : 
+[info] [2025-07-25T05:20:07.649Z] : i Client[frontend]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-07-25T05:20:07.649Z] : 
+[info] [2025-07-25T05:20:09.983Z] : 
+[info] [2025-07-25T05:20:09.983Z] : Executing AppSail [PRESERVE] [backend] script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-07-25T05:20:09.983Z] : Executing command > npm install
+[info] [2025-07-25T05:20:09.984Z] : > npm install
+[info] [2025-07-25T05:20:12.754Z] : 
+[info] [2025-07-25T05:20:12.757Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2025-07-25T05:20:12.761Z] : i backend: http://localhost:3001
+[info] [2025-07-25T05:20:12.763Z] : 
+[info] [2025-07-25T05:20:12.764Z] : 
+[info] [2025-07-25T05:20:12.766Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-07-25T05:20:12.773Z] : i client[frontend]: http://localhost:3000/app/
+[info] [2025-07-25T05:20:12.782Z] : 
+[info] [2025-07-25T05:20:19.519Z] : [react-plugin]: Compiled successfully!
+[info] [2025-07-25T05:20:19.520Z] : [react-plugin]: 
+[info] [2025-07-25T05:20:19.520Z] : [react-plugin]: You can now view frontend in the browser.
+[info] [2025-07-25T05:20:19.520Z] : [react-plugin]: 
+[info] [2025-07-25T05:20:19.520Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-07-25T05:20:19.521Z] : [react-plugin]:   On Your Network:  http://192.168.0.123:3000/app/
+[info] [2025-07-25T05:20:19.521Z] : [react-plugin]: 
+[info] [2025-07-25T05:20:19.521Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-07-25T05:20:19.522Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-07-25T05:20:19.522Z] : [react-plugin]: 
+[info] [2025-07-25T05:20:42.831Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-25T05:20:42.831Z] : [react-plugin]: Module not found: Error: Can't resolve './reportWebVitals' in 'D:\Catalyst-React\Simple Recat dashboard\frontend\src'
+[info] [2025-07-25T05:20:47.631Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-25T05:20:47.631Z] : [react-plugin]: Module not found: Error: Can't resolve './logo.svg' in 'D:\Catalyst-React\Simple Recat dashboard\frontend\src'
+[info] [2025-07-25T05:21:06.524Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T05:21:06.715Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-25T05:21:06.715Z] : [react-plugin]: Module not found: Error: Can't resolve './logo.svg' in 'D:\Catalyst-React\Simple Recat dashboard\frontend\src'
+[info] [2025-07-25T05:21:35.841Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T05:21:36.075Z] : [react-plugin]: Compiled successfully!
+[info] [2025-07-25T05:21:36.083Z] : [react-plugin]: 
+[info] [2025-07-25T05:21:36.084Z] : [react-plugin]: You can now view frontend in the browser.
+[info] [2025-07-25T05:21:36.084Z] : [react-plugin]: 
+[info] [2025-07-25T05:21:36.085Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-07-25T05:21:36.085Z] : [react-plugin]:   On Your Network:  http://192.168.0.123:3000/app/
+[info] [2025-07-25T05:21:36.085Z] : [react-plugin]: 
+[info] [2025-07-25T05:21:36.085Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-07-25T05:21:36.086Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-07-25T05:21:36.086Z] : [react-plugin]: 
+[info] [2025-07-25T05:22:10.787Z] : Shutting down server
+[info] [2025-07-25T05:22:10.796Z] : 
+[info] [2025-07-25T05:22:10.797Z] : √ Shutdown complete
+[debug] [2025-07-25T05:22:10.798Z] : NO ERRORS REGISTERED
+[debug] [2025-07-25T05:22:10.799Z] : EXEC ENDED with event: serve, message: success
+[debug] [2025-07-25T05:22:10.799Z] : TOTAL DURATION OF COMMAND EXEC : 129467
+[debug] [2025-07-25T05:22:10.825Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-07-25T05:22:13.284Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 05:22:11 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"close","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T05:22:13.287Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-07-25T05:22:13.289Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-07-25T05:22:24.558Z] : 
+[debug] [2025-07-25T05:22:24.562Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T05:22:24.562Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-07-25T05:22:24.562Z] : CLI Version:  1.20.1
+[debug] [2025-07-25T05:22:24.563Z] : Platform:     win32
+[debug] [2025-07-25T05:22:24.563Z] : Node Version: v22.14.0
+[debug] [2025-07-25T05:22:24.563Z] : Time:         Fri Jul 25 2025 10:52:24 GMT+0530 (India Standard Time)
+[debug] [2025-07-25T05:22:24.563Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T05:22:24.563Z] : 
+[debug] [2025-07-25T05:22:25.075Z] : > authorizing via signed-in user option
+[debug] [2025-07-25T05:22:25.075Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-07-25T05:22:25.094Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-07-25T05:22:25.938Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 05:22:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T05:22:25.942Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-07-25T05:22:26.206Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 05:22:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T05:22:26.557Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2025-07-25T05:22:26.701Z] : No basic functions to add
+[info] [2025-07-25T05:22:29.417Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-07-25T05:22:29.419Z] : 
+[info] [2025-07-25T05:22:29.420Z] : i Client[frontend]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-07-25T05:22:29.420Z] : 
+[info] [2025-07-25T05:22:31.136Z] : 
+[info] [2025-07-25T05:22:31.137Z] : Executing AppSail [PRESERVE] [backend] script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-07-25T05:22:31.137Z] : Executing command > npm install
+[info] [2025-07-25T05:22:31.137Z] : > npm install
+[info] [2025-07-25T05:22:33.183Z] : 
+[info] [2025-07-25T05:22:33.184Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2025-07-25T05:22:33.185Z] : i backend: http://localhost:3001
+[info] [2025-07-25T05:22:33.186Z] : 
+[info] [2025-07-25T05:22:33.186Z] : 
+[info] [2025-07-25T05:22:33.187Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-07-25T05:22:33.189Z] : i client[frontend]: http://localhost:3000/app/
+[info] [2025-07-25T05:22:33.204Z] : 
+[info] [2025-07-25T05:22:36.319Z] : [react-plugin]: Compiled successfully!
+[info] [2025-07-25T05:22:36.319Z] : [react-plugin]: 
+[info] [2025-07-25T05:22:36.320Z] : [react-plugin]: You can now view frontend in the browser.
+[info] [2025-07-25T05:22:36.320Z] : [react-plugin]: 
+[info] [2025-07-25T05:22:36.320Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-07-25T05:22:36.321Z] : [react-plugin]:   On Your Network:  http://192.168.0.123:3000/app/
+[info] [2025-07-25T05:22:36.321Z] : [react-plugin]: 
+[info] [2025-07-25T05:22:36.321Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-07-25T05:22:36.322Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-07-25T05:22:36.322Z] : [react-plugin]: 
+[info] [2025-07-25T05:25:25.333Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T05:25:26.258Z] : [react-plugin]: Compiled successfully!
+[info] [2025-07-25T05:25:26.302Z] : [react-plugin]: 
+[info] [2025-07-25T05:25:26.302Z] : [react-plugin]: You can now view frontend in the browser.
+[info] [2025-07-25T05:25:26.302Z] : [react-plugin]: 
+[info] [2025-07-25T05:25:26.303Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-07-25T05:25:26.304Z] : [react-plugin]:   On Your Network:  http://192.168.0.123:3000/app/
+[info] [2025-07-25T05:25:26.304Z] : [react-plugin]: 
+[info] [2025-07-25T05:25:26.304Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-07-25T05:25:26.305Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-07-25T05:25:26.305Z] : [react-plugin]: 
+[info] [2025-07-25T05:26:24.626Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T05:26:25.172Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-25T05:26:25.172Z] : [react-plugin]: Module not found: Error: Can't resolve './Components/Header' in 'D:\Catalyst-React\Simple Recat dashboard\frontend\src'
+[info] [2025-07-25T05:27:19.976Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T05:27:20.236Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-25T05:27:20.236Z] : [react-plugin]: Module not found: Error: Can't resolve './Components/Forms' in 'D:\Catalyst-React\Simple Recat dashboard\frontend\src'
+[info] [2025-07-25T05:27:27.657Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T05:27:27.929Z] : [react-plugin]: Compiled successfully!
+[info] [2025-07-25T05:27:27.932Z] : [react-plugin]: 
+[info] [2025-07-25T05:27:27.935Z] : [react-plugin]: You can now view frontend in the browser.
+[info] [2025-07-25T05:27:27.937Z] : [react-plugin]: 
+[info] [2025-07-25T05:27:27.944Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-07-25T05:27:27.952Z] : [react-plugin]:   On Your Network:  http://192.168.0.123:3000/app/
+[info] [2025-07-25T05:27:27.959Z] : [react-plugin]: 
+[info] [2025-07-25T05:27:27.962Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-07-25T05:27:27.966Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-07-25T05:27:27.967Z] : [react-plugin]: 
+[info] [2025-07-25T05:28:13.532Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T05:28:13.787Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-25T05:28:13.787Z] : [react-plugin]: Module not found: Error: Can't resolve '../Assets/cm logo.png' in 'D:\Catalyst-React\Simple Recat dashboard\frontend\src\Components'
+[info] [2025-07-25T05:28:38.317Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T05:28:38.514Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-25T05:28:38.514Z] : [react-plugin]: Module not found: Error: Can't resolve '../Assets/cm logo.png' in 'D:\Catalyst-React\Simple Recat dashboard\frontend\src\Components'
+[info] [2025-07-25T05:28:51.185Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T05:28:51.647Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-25T05:28:51.647Z] : [react-plugin]: Module not found: Error: Can't resolve 'styled-components' in 'D:\Catalyst-React\Simple Recat dashboard\frontend\src\Components'
+[info] [2025-07-25T05:29:03.938Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T05:29:04.115Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-25T05:29:04.115Z] : [react-plugin]: Module not found: Error: Can't resolve 'styled-components' in 'D:\Catalyst-React\Simple Recat dashboard\frontend\src\Components'
+[info] [2025-07-25T05:29:50.278Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T05:29:50.556Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-25T05:29:50.557Z] : [react-plugin]: Module not found: Error: Can't resolve 'styled-components' in 'D:\Catalyst-React\Simple Recat dashboard\frontend\src\Components'
+[info] [2025-07-25T05:30:02.541Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T05:30:02.784Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-25T05:30:02.784Z] : [react-plugin]: Module not found: Error: Can't resolve 'styled-components' in 'D:\Catalyst-React\Simple Recat dashboard\frontend\src\Components'
+[info] [2025-07-25T05:31:28.965Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T05:31:29.277Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-07-25T05:31:29.277Z] : [react-plugin]: Module not found: Error: Can't resolve 'styled-components' in 'D:\Catalyst-React\Simple Recat dashboard\frontend\src\Components'
+[info] [2025-07-25T05:31:50.014Z] : Shutting down server
+[info] [2025-07-25T05:31:50.024Z] : 
+[info] [2025-07-25T05:31:50.025Z] : √ Shutdown complete
+[debug] [2025-07-25T05:31:50.026Z] : NO ERRORS REGISTERED
+[debug] [2025-07-25T05:31:50.026Z] : EXEC ENDED with event: serve, message: success
+[debug] [2025-07-25T05:31:50.027Z] : TOTAL DURATION OF COMMAND EXEC : 564968
+[debug] [2025-07-25T05:31:50.054Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-07-25T05:31:52.742Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 05:31:51 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T05:31:52.744Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-07-25T05:31:52.746Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-07-25T08:23:42.654Z] : 
+[debug] [2025-07-25T08:23:42.658Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T08:23:42.658Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-07-25T08:23:42.658Z] : CLI Version:  1.20.1
+[debug] [2025-07-25T08:23:42.659Z] : Platform:     win32
+[debug] [2025-07-25T08:23:42.659Z] : Node Version: v22.14.0
+[debug] [2025-07-25T08:23:42.659Z] : Time:         Fri Jul 25 2025 13:53:42 GMT+0530 (India Standard Time)
+[debug] [2025-07-25T08:23:42.659Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T08:23:42.659Z] : 
+[debug] [2025-07-25T08:23:43.196Z] : > authorizing via signed-in user option
+[debug] [2025-07-25T08:23:43.197Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-07-25T08:23:43.216Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-07-25T08:23:44.102Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:23:41 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T08:23:44.107Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-07-25T08:23:44.377Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:23:42 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-07-25T08:23:44.542Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-07-25T08:23:44.543Z] : i Building Application...
+[info] [2025-07-25T08:23:46.898Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-07-25T08:23:48.991Z] : [react-plugin]: Compiled successfully.
+
+[info] [2025-07-25T08:23:48.991Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-07-25T08:23:49.013Z] : [react-plugin]:   107.79 kB  build\static\js\main.e1e1cfc2.js
+[info] [2025-07-25T08:23:49.014Z] : [react-plugin]:   452 B      build\static\css\main.d6e06391.css
+[info] [2025-07-25T08:23:49.014Z] : [react-plugin]:  
+[debug] [2025-07-25T08:23:49.727Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-07-25T08:23:52.778Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:23:50 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-07-25T08:23:52.799Z] : 
+[info] [2025-07-25T08:23:52.800Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-07-25T08:23:52.800Z] : Executing command > npm install
+[info] [2025-07-25T08:23:52.800Z] : > npm install
+[debug] [2025-07-25T08:23:57.170Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-07-25T08:24:03.419Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:24:01 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-07-25T08:24:03.423Z] : 
+[info] [2025-07-25T08:24:03.425Z] : √ client: deploy successful
+[info] [2025-07-25T08:24:03.426Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-07-25T08:24:03.427Z] : 
+[info] [2025-07-25T08:24:03.428Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-07-25T08:24:03.429Z] : √ AppSail(backend): deploy successful
+[info] [2025-07-25T08:24:03.430Z] : 
+[info] [2025-07-25T08:24:03.431Z] : √ Catalyst deploy complete!
+[debug] [2025-07-25T08:24:03.432Z] : NO ERRORS REGISTERED
+[debug] [2025-07-25T08:24:03.432Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-07-25T08:24:03.432Z] : TOTAL DURATION OF COMMAND EXEC : 20251
+[debug] [2025-07-25T08:24:03.457Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-07-25T08:24:03.888Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:24:01 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T08:24:03.889Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-07-25T08:24:03.893Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-07-25T08:25:10.510Z] : 
+[debug] [2025-07-25T08:25:10.513Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T08:25:10.513Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-07-25T08:25:10.513Z] : CLI Version:  1.20.1
+[debug] [2025-07-25T08:25:10.514Z] : Platform:     win32
+[debug] [2025-07-25T08:25:10.514Z] : Node Version: v22.14.0
+[debug] [2025-07-25T08:25:10.514Z] : Time:         Fri Jul 25 2025 13:55:10 GMT+0530 (India Standard Time)
+[debug] [2025-07-25T08:25:10.514Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T08:25:10.514Z] : 
+[debug] [2025-07-25T08:25:11.035Z] : > authorizing via signed-in user option
+[debug] [2025-07-25T08:25:11.036Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-07-25T08:25:11.054Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-07-25T08:25:11.985Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:25:09 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T08:25:11.989Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-07-25T08:25:12.315Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:25:10 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-07-25T08:25:12.462Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-07-25T08:25:12.462Z] : i Building Application...
+[info] [2025-07-25T08:25:14.732Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-07-25T08:25:16.905Z] : [react-plugin]: Compiled successfully.
+
+[info] [2025-07-25T08:25:16.905Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-07-25T08:25:16.928Z] : [react-plugin]:   107.79 kB  build\static\js\main.e1e1cfc2.js
+[info] [2025-07-25T08:25:16.929Z] : [react-plugin]:   452 B      build\static\css\main.d6e06391.css
+[info] [2025-07-25T08:25:16.929Z] : [react-plugin]:  
+[debug] [2025-07-25T08:25:17.646Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-07-25T08:25:20.573Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:25:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-07-25T08:25:20.595Z] : 
+[info] [2025-07-25T08:25:20.595Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-07-25T08:25:20.595Z] : Executing command > npm install
+[info] [2025-07-25T08:25:20.596Z] : > npm install
+[debug] [2025-07-25T08:25:24.879Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-07-25T08:25:29.977Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:25:27 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-07-25T08:25:29.982Z] : 
+[info] [2025-07-25T08:25:29.984Z] : √ client: deploy successful
+[info] [2025-07-25T08:25:29.985Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-07-25T08:25:29.989Z] : 
+[info] [2025-07-25T08:25:29.991Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-07-25T08:25:29.991Z] : √ AppSail(backend): deploy successful
+[info] [2025-07-25T08:25:29.992Z] : 
+[info] [2025-07-25T08:25:29.992Z] : √ Catalyst deploy complete!
+[debug] [2025-07-25T08:25:29.993Z] : NO ERRORS REGISTERED
+[debug] [2025-07-25T08:25:29.993Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-07-25T08:25:29.993Z] : TOTAL DURATION OF COMMAND EXEC : 18974
+[debug] [2025-07-25T08:25:30.018Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-07-25T08:25:30.484Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:25:28 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T08:25:30.485Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-07-25T08:25:30.487Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-07-25T08:26:54.032Z] : 
+[debug] [2025-07-25T08:26:54.035Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T08:26:54.035Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-07-25T08:26:54.036Z] : CLI Version:  1.20.1
+[debug] [2025-07-25T08:26:54.036Z] : Platform:     win32
+[debug] [2025-07-25T08:26:54.036Z] : Node Version: v22.14.0
+[debug] [2025-07-25T08:26:54.036Z] : Time:         Fri Jul 25 2025 13:56:54 GMT+0530 (India Standard Time)
+[debug] [2025-07-25T08:26:54.037Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T08:26:54.037Z] : 
+[debug] [2025-07-25T08:26:54.564Z] : > authorizing via signed-in user option
+[debug] [2025-07-25T08:26:54.565Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-07-25T08:26:54.584Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-07-25T08:26:55.478Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:26:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T08:26:55.483Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-07-25T08:26:55.760Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:26:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T08:26:56.179Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2025-07-25T08:26:56.349Z] : No basic functions to add
+[info] [2025-07-25T08:26:59.268Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-07-25T08:26:59.270Z] : 
+[info] [2025-07-25T08:26:59.271Z] : i Client[frontend]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-07-25T08:26:59.271Z] : 
+[info] [2025-07-25T08:27:01.173Z] : 
+[info] [2025-07-25T08:27:01.173Z] : Executing AppSail [PRESERVE] [backend] script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-07-25T08:27:01.173Z] : Executing command > npm install
+[info] [2025-07-25T08:27:01.174Z] : > npm install
+[info] [2025-07-25T08:27:03.211Z] : 
+[info] [2025-07-25T08:27:03.212Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2025-07-25T08:27:03.212Z] : i backend: http://localhost:3001
+[info] [2025-07-25T08:27:03.213Z] : 
+[info] [2025-07-25T08:27:03.213Z] : 
+[info] [2025-07-25T08:27:03.214Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-07-25T08:27:03.215Z] : i client[frontend]: http://localhost:3000/app/
+[info] [2025-07-25T08:27:03.217Z] : 
+[error] [2025-07-25T08:27:03.497Z] : uncaughtException: Unable to start the AppSail
+CatalystError: Unable to start the AppSail
+    at ChildProcess.<anonymous> (C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\server\lib\appsail\index.js:190:19)
+    at Object.onceWrapper (node:events:633:26)
+    at ChildProcess.emit (node:events:530:35)
+    at cp.emit (C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\cross-spawn\lib\enoent.js:34:29)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[info] [2025-07-25T08:27:03.501Z] : 
+[error] [2025-07-25T08:27:03.503Z] : × Error: Unable to start the backend AppSail server with the below parameters.
+Command    : node index.js
+Build path : D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+Runtime    : node16
+[debug] [2025-07-25T08:27:03.503Z] : Error Stack: CatalystError: Unable to start the AppSail
+    at ChildProcess.<anonymous> (C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\server\lib\appsail\index.js:190:19)
+    at Object.onceWrapper (node:events:633:26)
+    at ChildProcess.emit (node:events:530:35)
+    at cp.emit (C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\cross-spawn\lib\enoent.js:34:29)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+[debug] [2025-07-25T08:27:03.503Z] : Error Status: 500
+[info] [2025-07-25T08:27:03.503Z] : 
+[error] [2025-07-25T08:27:03.504Z] : Please fix the errors if any
+[debug] [2025-07-25T08:28:55.202Z] : 
+[debug] [2025-07-25T08:28:55.205Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T08:28:55.205Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-07-25T08:28:55.206Z] : CLI Version:  1.20.1
+[debug] [2025-07-25T08:28:55.206Z] : Platform:     win32
+[debug] [2025-07-25T08:28:55.206Z] : Node Version: v22.14.0
+[debug] [2025-07-25T08:28:55.207Z] : Time:         Fri Jul 25 2025 13:58:55 GMT+0530 (India Standard Time)
+[debug] [2025-07-25T08:28:55.207Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T08:28:55.207Z] : 
+[debug] [2025-07-25T08:28:55.737Z] : > authorizing via signed-in user option
+[debug] [2025-07-25T08:28:55.737Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-07-25T08:28:55.756Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-07-25T08:28:56.611Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:28:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T08:28:56.615Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-07-25T08:28:56.889Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:28:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T08:28:57.238Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2025-07-25T08:28:57.383Z] : No basic functions to add
+[info] [2025-07-25T08:29:00.099Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-07-25T08:29:00.102Z] : 
+[info] [2025-07-25T08:29:00.102Z] : i Client[frontend]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-07-25T08:29:00.103Z] : 
+[info] [2025-07-25T08:29:01.883Z] : 
+[info] [2025-07-25T08:29:01.884Z] : Executing AppSail [PRESERVE] [backend] script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-07-25T08:29:01.884Z] : Executing command > npm install
+[info] [2025-07-25T08:29:01.884Z] : > npm install
+[info] [2025-07-25T08:29:03.890Z] : 
+[info] [2025-07-25T08:29:03.892Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2025-07-25T08:29:03.893Z] : i backend: http://localhost:3001
+[info] [2025-07-25T08:29:03.894Z] : 
+[info] [2025-07-25T08:29:03.895Z] : 
+[info] [2025-07-25T08:29:03.895Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-07-25T08:29:03.896Z] : i client[frontend]: http://localhost:3000/app/
+[info] [2025-07-25T08:29:03.896Z] : 
+[info] [2025-07-25T08:29:04.836Z] : [react-plugin]: Compiled successfully!
+[info] [2025-07-25T08:29:04.837Z] : [react-plugin]: 
+[info] [2025-07-25T08:29:04.837Z] : [react-plugin]: You can now view frontend in the browser.
+[info] [2025-07-25T08:29:04.837Z] : [react-plugin]: 
+[info] [2025-07-25T08:29:04.838Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-07-25T08:29:04.838Z] : [react-plugin]:   On Your Network:  http://192.168.0.123:3000/app/
+[info] [2025-07-25T08:29:04.838Z] : [react-plugin]: 
+[info] [2025-07-25T08:29:04.838Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-07-25T08:29:04.839Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-07-25T08:29:04.839Z] : [react-plugin]: 
+[info] [2025-07-25T08:29:53.070Z] : Shutting down server
+[info] [2025-07-25T08:29:53.078Z] : 
+[info] [2025-07-25T08:29:53.079Z] : √ Shutdown complete
+[debug] [2025-07-25T08:29:53.080Z] : NO ERRORS REGISTERED
+[debug] [2025-07-25T08:29:53.081Z] : EXEC ENDED with event: serve, message: success
+[debug] [2025-07-25T08:29:53.081Z] : TOTAL DURATION OF COMMAND EXEC : 57359
+[debug] [2025-07-25T08:29:53.111Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-07-25T08:29:55.591Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:29:53 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T08:29:55.592Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-07-25T08:29:55.594Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-07-25T08:29:59.497Z] : 
+[debug] [2025-07-25T08:29:59.500Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T08:29:59.501Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-07-25T08:29:59.501Z] : CLI Version:  1.20.1
+[debug] [2025-07-25T08:29:59.502Z] : Platform:     win32
+[debug] [2025-07-25T08:29:59.502Z] : Node Version: v22.14.0
+[debug] [2025-07-25T08:29:59.502Z] : Time:         Fri Jul 25 2025 13:59:59 GMT+0530 (India Standard Time)
+[debug] [2025-07-25T08:29:59.502Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T08:29:59.502Z] : 
+[debug] [2025-07-25T08:30:00.037Z] : > authorizing via signed-in user option
+[debug] [2025-07-25T08:30:00.037Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-07-25T08:30:00.061Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-07-25T08:30:00.935Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:29:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T08:30:00.939Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-07-25T08:30:01.213Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:29:59 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T08:30:01.584Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2025-07-25T08:30:01.740Z] : No basic functions to add
+[info] [2025-07-25T08:30:05.086Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-07-25T08:30:05.089Z] : 
+[info] [2025-07-25T08:30:05.089Z] : i Client[frontend]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-07-25T08:30:05.089Z] : 
+[info] [2025-07-25T08:30:07.009Z] : 
+[info] [2025-07-25T08:30:07.010Z] : Executing AppSail [PRESERVE] [backend] script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-07-25T08:30:07.010Z] : Executing command > npm install
+[info] [2025-07-25T08:30:07.010Z] : > npm install
+[info] [2025-07-25T08:30:09.560Z] : 
+[info] [2025-07-25T08:30:09.561Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2025-07-25T08:30:09.562Z] : i backend: http://localhost:3001
+[info] [2025-07-25T08:30:09.563Z] : 
+[info] [2025-07-25T08:30:09.565Z] : 
+[info] [2025-07-25T08:30:09.565Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-07-25T08:30:09.566Z] : i client[frontend]: http://localhost:3000/app/
+[info] [2025-07-25T08:30:09.570Z] : 
+[info] [2025-07-25T08:30:10.328Z] : [react-plugin]: Compiled successfully!
+[info] [2025-07-25T08:30:10.329Z] : [react-plugin]: 
+[info] [2025-07-25T08:30:10.330Z] : [react-plugin]: You can now view frontend in the browser.
+[info] [2025-07-25T08:30:10.330Z] : [react-plugin]: 
+[info] [2025-07-25T08:30:10.331Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-07-25T08:30:10.332Z] : [react-plugin]:   On Your Network:  http://192.168.0.123:3000/app/
+[info] [2025-07-25T08:30:10.333Z] : [react-plugin]: 
+[info] [2025-07-25T08:30:10.333Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-07-25T08:30:10.336Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-07-25T08:30:10.336Z] : [react-plugin]: 
+[info] [2025-07-25T08:30:58.245Z] : Shutting down server
+[info] [2025-07-25T08:30:58.255Z] : 
+[info] [2025-07-25T08:30:58.256Z] : √ Shutdown complete
+[debug] [2025-07-25T08:30:58.257Z] : NO ERRORS REGISTERED
+[debug] [2025-07-25T08:30:58.257Z] : EXEC ENDED with event: serve, message: success
+[debug] [2025-07-25T08:30:58.257Z] : TOTAL DURATION OF COMMAND EXEC : 58237
+[debug] [2025-07-25T08:30:58.290Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-07-25T08:31:01.186Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:30:58 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T08:31:01.187Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-07-25T08:31:01.189Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-07-25T08:32:41.734Z] : 
+[debug] [2025-07-25T08:32:41.737Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T08:32:41.738Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-07-25T08:32:41.738Z] : CLI Version:  1.20.1
+[debug] [2025-07-25T08:32:41.739Z] : Platform:     win32
+[debug] [2025-07-25T08:32:41.739Z] : Node Version: v22.14.0
+[debug] [2025-07-25T08:32:41.739Z] : Time:         Fri Jul 25 2025 14:02:41 GMT+0530 (India Standard Time)
+[debug] [2025-07-25T08:32:41.739Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T08:32:41.740Z] : 
+[debug] [2025-07-25T08:32:42.276Z] : > authorizing via signed-in user option
+[debug] [2025-07-25T08:32:42.277Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-07-25T08:32:42.297Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-07-25T08:32:43.224Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:32:40 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T08:32:43.229Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-07-25T08:32:43.516Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 08:32:41 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T08:32:43.865Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2025-07-25T08:32:44.011Z] : No basic functions to add
+[info] [2025-07-25T08:32:46.747Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-07-25T08:32:46.749Z] : 
+[info] [2025-07-25T08:32:46.750Z] : i Client[frontend]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-07-25T08:32:46.750Z] : 
+[info] [2025-07-25T08:32:48.493Z] : 
+[info] [2025-07-25T08:32:48.494Z] : Executing AppSail [PRESERVE] [backend] script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-07-25T08:32:48.494Z] : Executing command > npm install
+[info] [2025-07-25T08:32:48.494Z] : > npm install
+[info] [2025-07-25T08:32:50.542Z] : 
+[info] [2025-07-25T08:32:50.543Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2025-07-25T08:32:50.544Z] : i backend: http://localhost:3001
+[info] [2025-07-25T08:32:50.544Z] : 
+[info] [2025-07-25T08:32:50.545Z] : 
+[info] [2025-07-25T08:32:50.545Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-07-25T08:32:50.546Z] : i client[frontend]: http://localhost:3000/app/
+[info] [2025-07-25T08:32:50.546Z] : 
+[info] [2025-07-25T08:32:51.436Z] : [react-plugin]: Compiled successfully!
+[info] [2025-07-25T08:32:51.438Z] : [react-plugin]: 
+[info] [2025-07-25T08:32:51.438Z] : [react-plugin]: You can now view frontend in the browser.
+[info] [2025-07-25T08:32:51.439Z] : [react-plugin]: 
+[info] [2025-07-25T08:32:51.439Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-07-25T08:32:51.440Z] : [react-plugin]:   On Your Network:  http://192.168.0.123:3000/app/
+[info] [2025-07-25T08:32:51.440Z] : [react-plugin]: 
+[info] [2025-07-25T08:32:51.440Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-07-25T08:32:51.441Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-07-25T08:32:51.441Z] : [react-plugin]: 
+[info] [2025-07-25T08:35:15.452Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T08:35:19.059Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-25T08:35:19.068Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 164:44:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-07-25T08:35:19.091Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-25T08:35:19.094Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-25T08:35:19.137Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T08:35:19.304Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-25T08:35:19.305Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 164:44:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-07-25T08:35:19.305Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-25T08:35:19.305Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-25T08:35:23.491Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T08:35:23.951Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-25T08:35:23.952Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 164:44:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-07-25T08:35:23.952Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-25T08:35:23.952Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-25T08:35:28.371Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T08:35:28.525Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-25T08:35:28.526Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 164:44:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-07-25T08:35:28.526Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-25T08:35:28.526Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-25T08:35:28.553Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T08:35:28.713Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-25T08:35:28.714Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 164:44:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-07-25T08:35:28.714Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-25T08:35:28.714Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-07-25T08:35:28.727Z] : [react-plugin]: Compiling...
+[info] [2025-07-25T08:35:28.885Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-07-25T08:35:28.885Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 164:44:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-07-25T08:35:28.886Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-07-25T08:35:28.886Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2025-07-25T09:40:54.111Z] : 
+[debug] [2025-07-25T09:40:54.118Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T09:40:54.119Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-07-25T09:40:54.121Z] : CLI Version:  1.20.1
+[debug] [2025-07-25T09:40:54.121Z] : Platform:     win32
+[debug] [2025-07-25T09:40:54.122Z] : Node Version: v22.14.0
+[debug] [2025-07-25T09:40:54.123Z] : Time:         Fri Jul 25 2025 15:10:54 GMT+0530 (India Standard Time)
+[debug] [2025-07-25T09:40:54.123Z] : ----------------------------------------------------------------------
+[debug] [2025-07-25T09:40:54.123Z] : 
+[debug] [2025-07-25T09:40:54.664Z] : > authorizing via signed-in user option
+[debug] [2025-07-25T09:40:54.665Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.dataverse.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-07-25T09:40:54.688Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-07-25T09:40:55.630Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 09:40:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T09:40:55.636Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-07-25T09:40:55.915Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 09:40:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T09:40:56.362Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2025-07-25T09:40:56.531Z] : No basic functions to add
+[info] [2025-07-25T09:40:59.603Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-07-25T09:40:59.605Z] : 
+[info] [2025-07-25T09:40:59.606Z] : i Client[frontend]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-07-25T09:40:59.606Z] : 
+[info] [2025-07-25T09:41:01.466Z] : 
+[info] [2025-07-25T09:41:01.466Z] : Executing AppSail [PRESERVE] [backend] script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-07-25T09:41:01.466Z] : Executing command > npm install
+[info] [2025-07-25T09:41:01.467Z] : > npm install
+[info] [2025-07-25T09:41:03.563Z] : 
+[info] [2025-07-25T09:41:03.564Z] :  >>>>>>>>>>>>>> AppSail <<<<<<<<<<<<<< 
+[info] [2025-07-25T09:41:03.564Z] : i backend: http://localhost:3001
+[info] [2025-07-25T09:41:03.565Z] : 
+[info] [2025-07-25T09:41:03.565Z] : 
+[info] [2025-07-25T09:41:03.565Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-07-25T09:41:03.566Z] : i client[frontend]: http://localhost:3000/app/
+[info] [2025-07-25T09:41:03.566Z] : 
+[info] [2025-07-25T09:41:10.349Z] : [react-plugin]: Compiled successfully!
+[info] [2025-07-25T09:41:10.349Z] : [react-plugin]: 
+[info] [2025-07-25T09:41:10.349Z] : [react-plugin]: You can now view frontend in the browser.
+[info] [2025-07-25T09:41:10.350Z] : [react-plugin]: 
+[info] [2025-07-25T09:41:10.350Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-07-25T09:41:10.351Z] : [react-plugin]:   On Your Network:  http://192.168.0.123:3000/app/
+[info] [2025-07-25T09:41:10.351Z] : [react-plugin]: 
+[info] [2025-07-25T09:41:10.351Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-07-25T09:41:10.352Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-07-25T09:41:10.352Z] : [react-plugin]: 
+[info] [2025-07-25T09:42:05.725Z] : Shutting down server
+[info] [2025-07-25T09:42:05.737Z] : 
+[info] [2025-07-25T09:42:05.738Z] : √ Shutdown complete
+[debug] [2025-07-25T09:42:05.739Z] : NO ERRORS REGISTERED
+[debug] [2025-07-25T09:42:05.740Z] : EXEC ENDED with event: serve, message: success
+[debug] [2025-07-25T09:42:05.740Z] : TOTAL DURATION OF COMMAND EXEC : 71092
+[debug] [2025-07-25T09:42:05.775Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-07-25T09:42:08.393Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 25 Jul 2025 09:42:06 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-07-25T09:42:08.395Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-07-25T09:42:08.398Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-08-04T11:28:11.308Z] : 
+[debug] [2025-08-04T11:28:11.312Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T11:28:11.313Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-08-04T11:28:11.313Z] : CLI Version:  1.20.1
+[debug] [2025-08-04T11:28:11.314Z] : Platform:     win32
+[debug] [2025-08-04T11:28:11.314Z] : Node Version: v22.14.0
+[debug] [2025-08-04T11:28:11.314Z] : Time:         Mon Aug 04 2025 16:58:11 GMT+0530 (India Standard Time)
+[debug] [2025-08-04T11:28:11.314Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T11:28:11.315Z] : 
+[debug] [2025-08-04T11:28:14.880Z] : > authorizing via signed-in user option
+[debug] [2025-08-04T11:28:14.880Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-08-04T11:28:15.002Z] : > refreshing access token <
+[debug] [2025-08-04T11:28:15.004Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-08-04T11:28:15.962Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:28:16 GMT","content-type":"application/json;charset=UTF-8","content-length":"2393","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T11:28:15.993Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-08-04T11:28:16.847Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:28:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T11:28:16.851Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-08-04T11:28:17.141Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:28:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:28:17.682Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-08-04T11:28:17.682Z] : i Building Application...
+[info] [2025-08-04T11:28:24.264Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-08-04T11:28:42.816Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-08-04T11:28:42.817Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 296:52:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-08-04T11:28:42.817Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-08-04T11:28:42.818Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-08-04T11:28:42.818Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-08-04T11:28:42.839Z] : [react-plugin]:   83.47 kB (-10.76 kB)  build\static\js\main.63cc21b6.js
+[info] [2025-08-04T11:28:42.839Z] : [react-plugin]:   1.03 kB (+576 B)      build\static\css\main.721c81c1.css
+[info] [2025-08-04T11:28:42.840Z] : [react-plugin]:  
+[debug] [2025-08-04T11:28:43.444Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-08-04T11:28:47.266Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:28:48 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:28:47.339Z] : 
+[info] [2025-08-04T11:28:47.340Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-08-04T11:28:47.340Z] : Executing command > npm install
+[info] [2025-08-04T11:28:47.340Z] : > npm install
+[debug] [2025-08-04T11:28:53.671Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-08-04T11:29:00.934Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:29:01 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:29:00.945Z] : 
+[info] [2025-08-04T11:29:00.946Z] : √ client: deploy successful
+[info] [2025-08-04T11:29:00.947Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-08-04T11:29:00.952Z] : 
+[info] [2025-08-04T11:29:00.953Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-08-04T11:29:00.953Z] : √ AppSail(backend): deploy successful
+[info] [2025-08-04T11:29:00.954Z] : 
+[info] [2025-08-04T11:29:00.954Z] : √ Catalyst deploy complete!
+[debug] [2025-08-04T11:29:00.955Z] : NO ERRORS REGISTERED
+[debug] [2025-08-04T11:29:00.956Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-08-04T11:29:00.956Z] : TOTAL DURATION OF COMMAND EXEC : 46163
+[debug] [2025-08-04T11:29:01.014Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-04T11:29:01.499Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:29:02 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T11:29:01.500Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-08-04T11:29:01.504Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-08-04T11:35:33.900Z] : 
+[debug] [2025-08-04T11:35:33.903Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T11:35:33.903Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-08-04T11:35:33.904Z] : CLI Version:  1.20.1
+[debug] [2025-08-04T11:35:33.904Z] : Platform:     win32
+[debug] [2025-08-04T11:35:33.905Z] : Node Version: v22.14.0
+[debug] [2025-08-04T11:35:33.905Z] : Time:         Mon Aug 04 2025 17:05:33 GMT+0530 (India Standard Time)
+[debug] [2025-08-04T11:35:33.905Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T11:35:33.905Z] : 
+[debug] [2025-08-04T11:35:34.437Z] : > authorizing via signed-in user option
+[debug] [2025-08-04T11:35:34.438Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-08-04T11:35:34.457Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-08-04T11:35:35.513Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:35:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T11:35:35.518Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-08-04T11:35:35.921Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:35:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:35:36.065Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-08-04T11:35:36.065Z] : i Building Application...
+[info] [2025-08-04T11:35:38.292Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-08-04T11:35:42.167Z] : [react-plugin]: Compiled successfully.
+
+[info] [2025-08-04T11:35:42.168Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-08-04T11:35:42.185Z] : [react-plugin]:   83.47 kB        build\static\js\main.63cc21b6.js
+[info] [2025-08-04T11:35:42.186Z] : [react-plugin]:   889 B (-139 B)  build\static\css\main.d2aec8e2.css
+[info] [2025-08-04T11:35:42.187Z] : [react-plugin]:  
+[debug] [2025-08-04T11:35:42.778Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-08-04T11:35:46.030Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:35:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:35:46.055Z] : 
+[info] [2025-08-04T11:35:46.055Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-08-04T11:35:46.056Z] : Executing command > npm install
+[info] [2025-08-04T11:35:46.056Z] : > npm install
+[debug] [2025-08-04T11:35:50.736Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-08-04T11:35:54.217Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:35:55 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:35:54.221Z] : 
+[info] [2025-08-04T11:35:54.222Z] : √ client: deploy successful
+[info] [2025-08-04T11:35:54.222Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-08-04T11:35:54.223Z] : 
+[info] [2025-08-04T11:35:54.223Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-08-04T11:35:54.224Z] : √ AppSail(backend): deploy successful
+[info] [2025-08-04T11:35:54.224Z] : 
+[info] [2025-08-04T11:35:54.225Z] : √ Catalyst deploy complete!
+[debug] [2025-08-04T11:35:54.225Z] : NO ERRORS REGISTERED
+[debug] [2025-08-04T11:35:54.226Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-08-04T11:35:54.226Z] : TOTAL DURATION OF COMMAND EXEC : 19805
+[debug] [2025-08-04T11:35:54.254Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-04T11:35:54.743Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:35:55 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T11:35:54.744Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-08-04T11:35:54.747Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-08-04T11:37:37.036Z] : 
+[debug] [2025-08-04T11:37:37.039Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T11:37:37.039Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-08-04T11:37:37.040Z] : CLI Version:  1.20.1
+[debug] [2025-08-04T11:37:37.040Z] : Platform:     win32
+[debug] [2025-08-04T11:37:37.040Z] : Node Version: v22.14.0
+[debug] [2025-08-04T11:37:37.040Z] : Time:         Mon Aug 04 2025 17:07:37 GMT+0530 (India Standard Time)
+[debug] [2025-08-04T11:37:37.040Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T11:37:37.041Z] : 
+[debug] [2025-08-04T11:37:37.567Z] : > authorizing via signed-in user option
+[debug] [2025-08-04T11:37:37.568Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-08-04T11:37:37.586Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-08-04T11:37:38.470Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:37:39 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T11:37:38.474Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-08-04T11:37:38.748Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:37:39 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:37:38.891Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-08-04T11:37:38.891Z] : i Building Application...
+[info] [2025-08-04T11:37:41.117Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-08-04T11:37:44.986Z] : [react-plugin]: Compiled successfully.
+
+[info] [2025-08-04T11:37:44.987Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-08-04T11:37:45.003Z] : [react-plugin]:   83.47 kB       build\static\js\main.63cc21b6.js
+[info] [2025-08-04T11:37:45.004Z] : [react-plugin]:   875 B (-14 B)  build\static\css\main.9d9efe9a.css
+[info] [2025-08-04T11:37:45.005Z] : [react-plugin]:  
+[debug] [2025-08-04T11:37:45.602Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-08-04T11:37:48.507Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:37:49 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:37:48.527Z] : 
+[info] [2025-08-04T11:37:48.527Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-08-04T11:37:48.528Z] : Executing command > npm install
+[info] [2025-08-04T11:37:48.529Z] : > npm install
+[debug] [2025-08-04T11:37:53.379Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-08-04T11:37:58.008Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:37:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:37:58.019Z] : 
+[info] [2025-08-04T11:37:58.021Z] : √ client: deploy successful
+[info] [2025-08-04T11:37:58.023Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-08-04T11:37:58.023Z] : 
+[info] [2025-08-04T11:37:58.025Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-08-04T11:37:58.026Z] : √ AppSail(backend): deploy successful
+[info] [2025-08-04T11:37:58.027Z] : 
+[info] [2025-08-04T11:37:58.028Z] : √ Catalyst deploy complete!
+[debug] [2025-08-04T11:37:58.029Z] : NO ERRORS REGISTERED
+[debug] [2025-08-04T11:37:58.031Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-08-04T11:37:58.031Z] : TOTAL DURATION OF COMMAND EXEC : 20478
+[debug] [2025-08-04T11:37:58.071Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-04T11:37:58.542Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:37:59 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T11:37:58.543Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-08-04T11:37:58.548Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-08-04T11:47:14.724Z] : 
+[debug] [2025-08-04T11:47:14.727Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T11:47:14.727Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-08-04T11:47:14.728Z] : CLI Version:  1.20.1
+[debug] [2025-08-04T11:47:14.728Z] : Platform:     win32
+[debug] [2025-08-04T11:47:14.728Z] : Node Version: v22.14.0
+[debug] [2025-08-04T11:47:14.729Z] : Time:         Mon Aug 04 2025 17:17:14 GMT+0530 (India Standard Time)
+[debug] [2025-08-04T11:47:14.729Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T11:47:14.729Z] : 
+[debug] [2025-08-04T11:47:15.250Z] : > authorizing via signed-in user option
+[debug] [2025-08-04T11:47:15.250Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-08-04T11:47:15.269Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-08-04T11:47:16.236Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:47:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T11:47:16.240Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-08-04T11:47:16.521Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:47:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:47:16.667Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-08-04T11:47:16.667Z] : i Building Application...
+[info] [2025-08-04T11:47:18.896Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-08-04T11:47:27.323Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-08-04T11:47:27.324Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 296:52:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-08-04T11:47:27.325Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-08-04T11:47:27.326Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-08-04T11:47:27.327Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-08-04T11:47:27.346Z] : [react-plugin]:   83.46 kB (-5 B)  build\static\js\main.f75cd53c.js
+[info] [2025-08-04T11:47:27.346Z] : [react-plugin]:   875 B            build\static\css\main.9d9efe9a.css
+[info] [2025-08-04T11:47:27.347Z] : [react-plugin]:  
+[debug] [2025-08-04T11:47:27.926Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-08-04T11:47:35.278Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:47:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:47:35.318Z] : 
+[info] [2025-08-04T11:47:35.318Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-08-04T11:47:35.318Z] : Executing command > npm install
+[info] [2025-08-04T11:47:35.319Z] : > npm install
+[debug] [2025-08-04T11:47:39.873Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-08-04T11:47:55.705Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:47:56 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:47:55.709Z] : 
+[info] [2025-08-04T11:47:55.711Z] : √ client: deploy successful
+[info] [2025-08-04T11:47:55.711Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-08-04T11:47:55.712Z] : 
+[info] [2025-08-04T11:47:55.712Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-08-04T11:47:55.713Z] : √ AppSail(backend): deploy successful
+[info] [2025-08-04T11:47:55.713Z] : 
+[info] [2025-08-04T11:47:55.713Z] : √ Catalyst deploy complete!
+[debug] [2025-08-04T11:47:55.714Z] : NO ERRORS REGISTERED
+[debug] [2025-08-04T11:47:55.714Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-08-04T11:47:55.714Z] : TOTAL DURATION OF COMMAND EXEC : 40480
+[debug] [2025-08-04T11:47:55.750Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-04T11:47:56.813Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:47:57 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T11:47:56.813Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-08-04T11:47:56.815Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-08-04T11:56:11.738Z] : 
+[debug] [2025-08-04T11:56:11.741Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T11:56:11.742Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-08-04T11:56:11.742Z] : CLI Version:  1.20.1
+[debug] [2025-08-04T11:56:11.743Z] : Platform:     win32
+[debug] [2025-08-04T11:56:11.743Z] : Node Version: v22.14.0
+[debug] [2025-08-04T11:56:11.743Z] : Time:         Mon Aug 04 2025 17:26:11 GMT+0530 (India Standard Time)
+[debug] [2025-08-04T11:56:11.743Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T11:56:11.743Z] : 
+[debug] [2025-08-04T11:56:12.267Z] : > authorizing via signed-in user option
+[debug] [2025-08-04T11:56:12.268Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-08-04T11:56:12.287Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-08-04T11:56:13.146Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:56:14 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T11:56:13.151Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-08-04T11:56:13.479Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:56:14 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:56:13.624Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-08-04T11:56:13.624Z] : i Building Application...
+[info] [2025-08-04T11:56:15.910Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-08-04T11:56:24.488Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-08-04T11:56:24.489Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 297:52:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-08-04T11:56:24.490Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-08-04T11:56:24.491Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-08-04T11:56:24.491Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-08-04T11:56:24.510Z] : [react-plugin]:   83.45 kB (-12 B)  build\static\js\main.13787c77.js
+[info] [2025-08-04T11:56:24.510Z] : [react-plugin]:   875 B             build\static\css\main.9d9efe9a.css
+[info] [2025-08-04T11:56:24.511Z] : [react-plugin]:  
+[debug] [2025-08-04T11:56:25.107Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-08-04T11:56:28.317Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:56:29 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:56:28.336Z] : 
+[info] [2025-08-04T11:56:28.337Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-08-04T11:56:28.337Z] : Executing command > npm install
+[info] [2025-08-04T11:56:28.337Z] : > npm install
+[debug] [2025-08-04T11:56:32.878Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-08-04T11:56:36.371Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:56:37 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T11:56:36.380Z] : 
+[info] [2025-08-04T11:56:36.381Z] : √ client: deploy successful
+[info] [2025-08-04T11:56:36.381Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-08-04T11:56:36.382Z] : 
+[info] [2025-08-04T11:56:36.382Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-08-04T11:56:36.383Z] : √ AppSail(backend): deploy successful
+[info] [2025-08-04T11:56:36.383Z] : 
+[info] [2025-08-04T11:56:36.384Z] : √ Catalyst deploy complete!
+[debug] [2025-08-04T11:56:36.384Z] : NO ERRORS REGISTERED
+[debug] [2025-08-04T11:56:36.385Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-08-04T11:56:36.385Z] : TOTAL DURATION OF COMMAND EXEC : 24133
+[debug] [2025-08-04T11:56:36.413Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-04T11:56:36.845Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 11:56:37 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T11:56:36.846Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-08-04T11:56:36.849Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-08-04T12:08:03.422Z] : 
+[debug] [2025-08-04T12:08:03.425Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:08:03.425Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-08-04T12:08:03.426Z] : CLI Version:  1.20.1
+[debug] [2025-08-04T12:08:03.426Z] : Platform:     win32
+[debug] [2025-08-04T12:08:03.426Z] : Node Version: v22.14.0
+[debug] [2025-08-04T12:08:03.426Z] : Time:         Mon Aug 04 2025 17:38:03 GMT+0530 (India Standard Time)
+[debug] [2025-08-04T12:08:03.426Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:08:03.427Z] : 
+[debug] [2025-08-04T12:08:03.938Z] : > authorizing via signed-in user option
+[debug] [2025-08-04T12:08:03.939Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-08-04T12:08:03.958Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-08-04T12:08:04.908Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:08:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:08:04.912Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-08-04T12:08:05.288Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:08:06 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:08:05.444Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-08-04T12:08:05.445Z] : i Building Application...
+[info] [2025-08-04T12:08:07.678Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-08-04T12:08:16.100Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-08-04T12:08:16.101Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 299:52:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-08-04T12:08:16.101Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-08-04T12:08:16.102Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-08-04T12:08:16.102Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-08-04T12:08:16.119Z] : [react-plugin]:   83.46 kB (+7 B)  build\static\js\main.a91e9402.js
+[info] [2025-08-04T12:08:16.120Z] : [react-plugin]:   875 B            build\static\css\main.9d9efe9a.css
+[info] [2025-08-04T12:08:16.120Z] : [react-plugin]:  
+[debug] [2025-08-04T12:08:16.703Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-08-04T12:08:19.825Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:08:20 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:08:19.874Z] : 
+[info] [2025-08-04T12:08:19.875Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-08-04T12:08:19.875Z] : Executing command > npm install
+[info] [2025-08-04T12:08:19.878Z] : > npm install
+[debug] [2025-08-04T12:08:24.361Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-08-04T12:08:30.171Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:08:31 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:08:30.173Z] : 
+[info] [2025-08-04T12:08:30.174Z] : √ client: deploy successful
+[info] [2025-08-04T12:08:30.175Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-08-04T12:08:30.175Z] : 
+[info] [2025-08-04T12:08:30.177Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-08-04T12:08:30.178Z] : √ AppSail(backend): deploy successful
+[info] [2025-08-04T12:08:30.178Z] : 
+[info] [2025-08-04T12:08:30.178Z] : √ Catalyst deploy complete!
+[debug] [2025-08-04T12:08:30.179Z] : NO ERRORS REGISTERED
+[debug] [2025-08-04T12:08:30.179Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-08-04T12:08:30.179Z] : TOTAL DURATION OF COMMAND EXEC : 26256
+[debug] [2025-08-04T12:08:30.207Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-04T12:08:30.691Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:08:31 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:08:30.692Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-08-04T12:08:30.696Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-08-04T12:14:17.601Z] : 
+[debug] [2025-08-04T12:14:17.604Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:14:17.605Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-08-04T12:14:17.606Z] : CLI Version:  1.20.1
+[debug] [2025-08-04T12:14:17.606Z] : Platform:     win32
+[debug] [2025-08-04T12:14:17.607Z] : Node Version: v22.14.0
+[debug] [2025-08-04T12:14:17.607Z] : Time:         Mon Aug 04 2025 17:44:17 GMT+0530 (India Standard Time)
+[debug] [2025-08-04T12:14:17.607Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:14:17.607Z] : 
+[debug] [2025-08-04T12:14:18.159Z] : > authorizing via signed-in user option
+[debug] [2025-08-04T12:14:18.160Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-08-04T12:14:18.181Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-08-04T12:14:19.117Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:14:20 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:14:19.125Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-08-04T12:14:19.448Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:14:20 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:14:19.597Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-08-04T12:14:19.598Z] : i Building Application...
+[info] [2025-08-04T12:14:21.820Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-08-04T12:14:30.288Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-08-04T12:14:30.289Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 299:52:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-08-04T12:14:30.290Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-08-04T12:14:30.291Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-08-04T12:14:30.291Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-08-04T12:14:30.308Z] : [react-plugin]:   83.32 kB (-132 B)  build\static\js\main.abb29f42.js
+[info] [2025-08-04T12:14:30.308Z] : [react-plugin]:   875 B              build\static\css\main.9d9efe9a.css
+[info] [2025-08-04T12:14:30.309Z] : [react-plugin]:  
+[debug] [2025-08-04T12:14:30.899Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-08-04T12:14:34.266Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:14:35 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:14:34.302Z] : 
+[info] [2025-08-04T12:14:34.303Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-08-04T12:14:34.303Z] : Executing command > npm install
+[info] [2025-08-04T12:14:34.303Z] : > npm install
+[debug] [2025-08-04T12:14:38.548Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-08-04T12:14:42.177Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:14:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:14:42.181Z] : 
+[info] [2025-08-04T12:14:42.182Z] : √ client: deploy successful
+[info] [2025-08-04T12:14:42.182Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-08-04T12:14:42.183Z] : 
+[info] [2025-08-04T12:14:42.183Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-08-04T12:14:42.184Z] : √ AppSail(backend): deploy successful
+[info] [2025-08-04T12:14:42.184Z] : 
+[info] [2025-08-04T12:14:42.186Z] : √ Catalyst deploy complete!
+[debug] [2025-08-04T12:14:42.187Z] : NO ERRORS REGISTERED
+[debug] [2025-08-04T12:14:42.187Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-08-04T12:14:42.187Z] : TOTAL DURATION OF COMMAND EXEC : 24044
+[debug] [2025-08-04T12:14:42.216Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-04T12:14:42.673Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:14:43 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:14:42.675Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-08-04T12:14:42.678Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-08-04T12:19:17.533Z] : 
+[debug] [2025-08-04T12:19:17.536Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:19:17.537Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-08-04T12:19:17.537Z] : CLI Version:  1.20.1
+[debug] [2025-08-04T12:19:17.537Z] : Platform:     win32
+[debug] [2025-08-04T12:19:17.538Z] : Node Version: v22.14.0
+[debug] [2025-08-04T12:19:17.538Z] : Time:         Mon Aug 04 2025 17:49:17 GMT+0530 (India Standard Time)
+[debug] [2025-08-04T12:19:17.538Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:19:17.538Z] : 
+[debug] [2025-08-04T12:19:18.074Z] : > authorizing via signed-in user option
+[debug] [2025-08-04T12:19:18.075Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-08-04T12:19:18.093Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-08-04T12:19:19.090Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:19:20 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:19:19.094Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-08-04T12:19:19.405Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:19:20 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:19:19.549Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-08-04T12:19:19.549Z] : i Building Application...
+[info] [2025-08-04T12:19:21.786Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-08-04T12:19:30.174Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-08-04T12:19:30.175Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 299:52:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-08-04T12:19:30.175Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-08-04T12:19:30.176Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-08-04T12:19:30.176Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-08-04T12:19:30.195Z] : [react-plugin]:   82.79 kB (-535 B)  build\static\js\main.29543695.js
+[info] [2025-08-04T12:19:30.196Z] : [react-plugin]:   875 B              build\static\css\main.9d9efe9a.css
+[info] [2025-08-04T12:19:30.196Z] : [react-plugin]:  
+[debug] [2025-08-04T12:19:30.785Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-08-04T12:19:33.729Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:19:34 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:19:33.766Z] : 
+[info] [2025-08-04T12:19:33.766Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-08-04T12:19:33.766Z] : Executing command > npm install
+[info] [2025-08-04T12:19:33.767Z] : > npm install
+[debug] [2025-08-04T12:19:38.236Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-08-04T12:19:41.989Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:19:42 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:19:41.992Z] : 
+[info] [2025-08-04T12:19:41.994Z] : √ client: deploy successful
+[info] [2025-08-04T12:19:41.996Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-08-04T12:19:41.996Z] : 
+[info] [2025-08-04T12:19:41.997Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-08-04T12:19:41.998Z] : √ AppSail(backend): deploy successful
+[info] [2025-08-04T12:19:41.999Z] : 
+[info] [2025-08-04T12:19:42.000Z] : √ Catalyst deploy complete!
+[debug] [2025-08-04T12:19:42.001Z] : NO ERRORS REGISTERED
+[debug] [2025-08-04T12:19:42.002Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-08-04T12:19:42.002Z] : TOTAL DURATION OF COMMAND EXEC : 23943
+[debug] [2025-08-04T12:19:42.045Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-04T12:19:42.490Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:19:43 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:19:42.491Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-08-04T12:19:42.494Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-08-04T12:28:32.133Z] : 
+[debug] [2025-08-04T12:28:32.136Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:28:32.136Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-08-04T12:28:32.137Z] : CLI Version:  1.20.1
+[debug] [2025-08-04T12:28:32.137Z] : Platform:     win32
+[debug] [2025-08-04T12:28:32.138Z] : Node Version: v22.14.0
+[debug] [2025-08-04T12:28:32.138Z] : Time:         Mon Aug 04 2025 17:58:32 GMT+0530 (India Standard Time)
+[debug] [2025-08-04T12:28:32.138Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:28:32.138Z] : 
+[debug] [2025-08-04T12:28:32.684Z] : > authorizing via signed-in user option
+[debug] [2025-08-04T12:28:32.684Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-08-04T12:28:32.705Z] : > refreshing access token <
+[debug] [2025-08-04T12:28:32.707Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-08-04T12:28:33.699Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:28:34 GMT","content-type":"application/json;charset=UTF-8","content-length":"2393","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:28:33.758Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-08-04T12:28:34.678Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:28:35 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:28:34.682Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-08-04T12:28:34.989Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:28:35 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:28:35.133Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-08-04T12:28:35.133Z] : i Building Application...
+[info] [2025-08-04T12:28:37.459Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-08-04T12:28:45.923Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-08-04T12:28:45.925Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 299:52:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-08-04T12:28:45.925Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-08-04T12:28:45.926Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-08-04T12:28:45.926Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-08-04T12:28:45.943Z] : [react-plugin]:   82.9 kB (+115 B)  build\static\js\main.8118db5c.js
+[info] [2025-08-04T12:28:45.944Z] : [react-plugin]:   875 B             build\static\css\main.9d9efe9a.css
+[info] [2025-08-04T12:28:45.945Z] : [react-plugin]:  
+[debug] [2025-08-04T12:28:46.522Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-08-04T12:28:51.604Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:28:52 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:28:51.626Z] : 
+[info] [2025-08-04T12:28:51.626Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-08-04T12:28:51.627Z] : Executing command > npm install
+[info] [2025-08-04T12:28:51.627Z] : > npm install
+[debug] [2025-08-04T12:28:56.183Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-08-04T12:29:07.434Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:29:08 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:29:07.439Z] : 
+[info] [2025-08-04T12:29:07.440Z] : √ client: deploy successful
+[info] [2025-08-04T12:29:07.440Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-08-04T12:29:07.441Z] : 
+[info] [2025-08-04T12:29:07.441Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-08-04T12:29:07.442Z] : √ AppSail(backend): deploy successful
+[info] [2025-08-04T12:29:07.442Z] : 
+[info] [2025-08-04T12:29:07.442Z] : √ Catalyst deploy complete!
+[debug] [2025-08-04T12:29:07.443Z] : NO ERRORS REGISTERED
+[debug] [2025-08-04T12:29:07.444Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-08-04T12:29:07.444Z] : TOTAL DURATION OF COMMAND EXEC : 34776
+[debug] [2025-08-04T12:29:07.480Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-04T12:29:08.683Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:29:09 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:29:08.685Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-08-04T12:29:08.688Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-08-04T12:30:36.248Z] : 
+[debug] [2025-08-04T12:30:36.251Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:30:36.251Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-08-04T12:30:36.252Z] : CLI Version:  1.20.1
+[debug] [2025-08-04T12:30:36.252Z] : Platform:     win32
+[debug] [2025-08-04T12:30:36.253Z] : Node Version: v22.14.0
+[debug] [2025-08-04T12:30:36.253Z] : Time:         Mon Aug 04 2025 18:00:36 GMT+0530 (India Standard Time)
+[debug] [2025-08-04T12:30:36.253Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:30:36.253Z] : 
+[debug] [2025-08-04T12:30:36.790Z] : > authorizing via signed-in user option
+[debug] [2025-08-04T12:30:36.791Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-08-04T12:30:36.809Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-08-04T12:30:37.852Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:30:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:30:37.856Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-08-04T12:30:38.178Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:30:39 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:30:38.321Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-08-04T12:30:38.322Z] : i Building Application...
+[info] [2025-08-04T12:30:40.552Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-08-04T12:30:50.211Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-08-04T12:30:50.212Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 299:52:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-08-04T12:30:50.213Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-08-04T12:30:50.214Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-08-04T12:30:50.215Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-08-04T12:30:50.235Z] : [react-plugin]:   83.14 kB (+231 B)  build\static\js\main.0b964170.js
+[info] [2025-08-04T12:30:50.236Z] : [react-plugin]:   875 B              build\static\css\main.9d9efe9a.css
+[info] [2025-08-04T12:30:50.236Z] : [react-plugin]:  
+[debug] [2025-08-04T12:30:50.890Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-08-04T12:30:54.147Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:30:55 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:30:54.167Z] : 
+[info] [2025-08-04T12:30:54.167Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-08-04T12:30:54.168Z] : Executing command > npm install
+[info] [2025-08-04T12:30:54.168Z] : > npm install
+[debug] [2025-08-04T12:30:58.446Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-08-04T12:31:07.748Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:31:08 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:31:07.750Z] : 
+[info] [2025-08-04T12:31:07.750Z] : √ client: deploy successful
+[info] [2025-08-04T12:31:07.751Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-08-04T12:31:07.751Z] : 
+[info] [2025-08-04T12:31:07.752Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-08-04T12:31:07.752Z] : √ AppSail(backend): deploy successful
+[info] [2025-08-04T12:31:07.753Z] : 
+[info] [2025-08-04T12:31:07.753Z] : √ Catalyst deploy complete!
+[debug] [2025-08-04T12:31:07.753Z] : NO ERRORS REGISTERED
+[debug] [2025-08-04T12:31:07.754Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-08-04T12:31:07.754Z] : TOTAL DURATION OF COMMAND EXEC : 30980
+[debug] [2025-08-04T12:31:07.782Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-04T12:31:08.314Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:31:09 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:31:08.315Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-08-04T12:31:08.320Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-08-04T12:32:16.413Z] : 
+[debug] [2025-08-04T12:32:16.416Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:32:16.417Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-08-04T12:32:16.417Z] : CLI Version:  1.20.1
+[debug] [2025-08-04T12:32:16.418Z] : Platform:     win32
+[debug] [2025-08-04T12:32:16.418Z] : Node Version: v22.14.0
+[debug] [2025-08-04T12:32:16.418Z] : Time:         Mon Aug 04 2025 18:02:16 GMT+0530 (India Standard Time)
+[debug] [2025-08-04T12:32:16.418Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:32:16.418Z] : 
+[debug] [2025-08-04T12:32:17.005Z] : > authorizing via signed-in user option
+[debug] [2025-08-04T12:32:17.005Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-08-04T12:32:17.026Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-08-04T12:32:18.015Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:32:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:32:18.022Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-08-04T12:32:18.333Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:32:19 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:32:18.488Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-08-04T12:32:18.489Z] : i Building Application...
+[info] [2025-08-04T12:32:20.701Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-08-04T12:32:28.866Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-08-04T12:32:28.867Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 299:52:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-08-04T12:32:28.868Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-08-04T12:32:28.869Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-08-04T12:32:28.869Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-08-04T12:32:28.888Z] : [react-plugin]:   83.26 kB (+124 B)  build\static\js\main.7a0e08c2.js
+[info] [2025-08-04T12:32:28.889Z] : [react-plugin]:   875 B              build\static\css\main.9d9efe9a.css
+[info] [2025-08-04T12:32:28.889Z] : [react-plugin]:  
+[debug] [2025-08-04T12:32:29.466Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-08-04T12:32:32.698Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:32:33 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:32:32.715Z] : 
+[info] [2025-08-04T12:32:32.715Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-08-04T12:32:32.715Z] : Executing command > npm install
+[info] [2025-08-04T12:32:32.716Z] : > npm install
+[debug] [2025-08-04T12:32:37.002Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-08-04T12:32:45.656Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:32:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:32:45.658Z] : 
+[info] [2025-08-04T12:32:45.658Z] : √ client: deploy successful
+[info] [2025-08-04T12:32:45.659Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-08-04T12:32:45.659Z] : 
+[info] [2025-08-04T12:32:45.660Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-08-04T12:32:45.660Z] : √ AppSail(backend): deploy successful
+[info] [2025-08-04T12:32:45.660Z] : 
+[info] [2025-08-04T12:32:45.661Z] : √ Catalyst deploy complete!
+[debug] [2025-08-04T12:32:45.661Z] : NO ERRORS REGISTERED
+[debug] [2025-08-04T12:32:45.662Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-08-04T12:32:45.662Z] : TOTAL DURATION OF COMMAND EXEC : 28674
+[debug] [2025-08-04T12:32:45.690Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-04T12:32:46.188Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:32:47 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:32:46.189Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-08-04T12:32:46.190Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-08-04T12:34:33.531Z] : 
+[debug] [2025-08-04T12:34:33.534Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:34:33.535Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-08-04T12:34:33.535Z] : CLI Version:  1.20.1
+[debug] [2025-08-04T12:34:33.536Z] : Platform:     win32
+[debug] [2025-08-04T12:34:33.536Z] : Node Version: v22.14.0
+[debug] [2025-08-04T12:34:33.536Z] : Time:         Mon Aug 04 2025 18:04:33 GMT+0530 (India Standard Time)
+[debug] [2025-08-04T12:34:33.536Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:34:33.538Z] : 
+[debug] [2025-08-04T12:34:34.069Z] : > authorizing via signed-in user option
+[debug] [2025-08-04T12:34:34.069Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-08-04T12:34:34.090Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-08-04T12:34:35.113Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:34:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:34:35.118Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-08-04T12:34:35.451Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:34:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:34:35.597Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-08-04T12:34:35.597Z] : i Building Application...
+[info] [2025-08-04T12:34:37.800Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-08-04T12:34:46.004Z] : [react-plugin]: Compiled successfully.
+
+[info] [2025-08-04T12:34:46.005Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-08-04T12:34:46.022Z] : [react-plugin]:   83.29 kB (+34 B)  build\static\js\main.bed1680b.js
+[info] [2025-08-04T12:34:46.023Z] : [react-plugin]:   875 B             build\static\css\main.9d9efe9a.css
+[info] [2025-08-04T12:34:46.024Z] : [react-plugin]:  
+[debug] [2025-08-04T12:34:46.592Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-08-04T12:34:49.766Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:34:50 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:34:49.805Z] : 
+[info] [2025-08-04T12:34:49.805Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-08-04T12:34:49.805Z] : Executing command > npm install
+[info] [2025-08-04T12:34:49.806Z] : > npm install
+[debug] [2025-08-04T12:34:53.981Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-08-04T12:35:00.475Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:35:01 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:35:00.478Z] : 
+[info] [2025-08-04T12:35:00.479Z] : √ client: deploy successful
+[info] [2025-08-04T12:35:00.480Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-08-04T12:35:00.480Z] : 
+[info] [2025-08-04T12:35:00.481Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-08-04T12:35:00.482Z] : √ AppSail(backend): deploy successful
+[info] [2025-08-04T12:35:00.483Z] : 
+[info] [2025-08-04T12:35:00.483Z] : √ Catalyst deploy complete!
+[debug] [2025-08-04T12:35:00.484Z] : NO ERRORS REGISTERED
+[debug] [2025-08-04T12:35:00.485Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-08-04T12:35:00.485Z] : TOTAL DURATION OF COMMAND EXEC : 26432
+[debug] [2025-08-04T12:35:00.520Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-04T12:35:00.990Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:35:01 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:35:00.991Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-08-04T12:35:00.995Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-08-04T12:36:17.012Z] : 
+[debug] [2025-08-04T12:36:17.015Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:36:17.016Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-08-04T12:36:17.016Z] : CLI Version:  1.20.1
+[debug] [2025-08-04T12:36:17.017Z] : Platform:     win32
+[debug] [2025-08-04T12:36:17.017Z] : Node Version: v22.14.0
+[debug] [2025-08-04T12:36:17.017Z] : Time:         Mon Aug 04 2025 18:06:17 GMT+0530 (India Standard Time)
+[debug] [2025-08-04T12:36:17.017Z] : ----------------------------------------------------------------------
+[debug] [2025-08-04T12:36:17.017Z] : 
+[debug] [2025-08-04T12:36:17.560Z] : > authorizing via signed-in user option
+[debug] [2025-08-04T12:36:17.560Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-08-04T12:36:17.579Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-08-04T12:36:18.491Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:36:19 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:36:18.495Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-08-04T12:36:18.781Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:36:19 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:36:18.926Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-08-04T12:36:18.926Z] : i Building Application...
+[info] [2025-08-04T12:36:21.154Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-08-04T12:36:29.349Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-08-04T12:36:29.350Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 299:52:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+[info] [2025-08-04T12:36:29.350Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-08-04T12:36:29.351Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-08-04T12:36:29.351Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-08-04T12:36:29.369Z] : [react-plugin]:   83.39 kB (+99 B)  build\static\js\main.3ac59980.js
+[info] [2025-08-04T12:36:29.370Z] : [react-plugin]:   875 B             build\static\css\main.9d9efe9a.css
+[info] [2025-08-04T12:36:29.370Z] : [react-plugin]:  
+[debug] [2025-08-04T12:36:29.944Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-08-04T12:36:33.014Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:36:33 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:36:33.071Z] : 
+[info] [2025-08-04T12:36:33.073Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-08-04T12:36:33.074Z] : Executing command > npm install
+[info] [2025-08-04T12:36:33.076Z] : > npm install
+[debug] [2025-08-04T12:36:37.822Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-08-04T12:36:42.328Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:36:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-04T12:36:42.339Z] : 
+[info] [2025-08-04T12:36:42.341Z] : √ client: deploy successful
+[info] [2025-08-04T12:36:42.342Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-08-04T12:36:42.343Z] : 
+[info] [2025-08-04T12:36:42.344Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-08-04T12:36:42.345Z] : √ AppSail(backend): deploy successful
+[info] [2025-08-04T12:36:42.346Z] : 
+[info] [2025-08-04T12:36:42.348Z] : √ Catalyst deploy complete!
+[debug] [2025-08-04T12:36:42.349Z] : NO ERRORS REGISTERED
+[debug] [2025-08-04T12:36:42.351Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-08-04T12:36:42.351Z] : TOTAL DURATION OF COMMAND EXEC : 24805
+[debug] [2025-08-04T12:36:42.393Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-04T12:36:42.952Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:36:43 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-04T12:36:42.953Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-08-04T12:36:42.957Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
