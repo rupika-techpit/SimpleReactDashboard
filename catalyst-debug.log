@@ -1632,3 +1632,85 @@ Response Headers: {"server":"ZGS","date":"Mon, 04 Aug 2025 12:36:43 GMT","conten
 [debug] [2025-08-04T12:36:42.953Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
 
 [debug] [2025-08-04T12:36:42.957Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-08-08T05:29:52.865Z] : 
+[debug] [2025-08-08T05:29:52.868Z] : ----------------------------------------------------------------------
+[debug] [2025-08-08T05:29:52.868Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-08-08T05:29:52.869Z] : CLI Version:  1.20.1
+[debug] [2025-08-08T05:29:52.869Z] : Platform:     win32
+[debug] [2025-08-08T05:29:52.870Z] : Node Version: v22.14.0
+[debug] [2025-08-08T05:29:52.870Z] : Time:         Fri Aug 08 2025 10:59:52 GMT+0530 (India Standard Time)
+[debug] [2025-08-08T05:29:52.870Z] : ----------------------------------------------------------------------
+[debug] [2025-08-08T05:29:52.870Z] : 
+[debug] [2025-08-08T05:29:57.204Z] : > authorizing via signed-in user option
+[debug] [2025-08-08T05:29:57.205Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-08-08T05:29:57.261Z] : > refreshing access token <
+[debug] [2025-08-08T05:29:57.262Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-08-08T05:29:58.175Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 08 Aug 2025 05:29:56 GMT","content-type":"application/json;charset=UTF-8","content-length":"2393","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-08T05:29:58.213Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305 
+
+[debug] [2025-08-08T05:29:59.144Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 08 Aug 2025 05:29:57 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-08T05:29:59.148Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/environment 
+
+[debug] [2025-08-08T05:29:59.459Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 08 Aug 2025 05:29:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-08T05:30:00.228Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-08-08T05:30:00.229Z] : i Building Application...
+[info] [2025-08-08T05:30:12.165Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-08-08T05:30:26.432Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-08-08T05:30:26.433Z] : [react-plugin]: [eslint] 
+src\Components\Forms.jsx
+  Line 353:54:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src\Schema\index.jsx
+  Line 20:72:  Unnecessary escape character: \:  no-useless-escape
+[info] [2025-08-08T05:30:26.434Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-08-08T05:30:26.435Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-08-08T05:30:26.435Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-08-08T05:30:26.453Z] : [react-plugin]:   83.76 kB (+369 B)  build\static\js\main.77774ce6.js
+[info] [2025-08-08T05:30:26.454Z] : [react-plugin]:   875 B              build\static\css\main.9d9efe9a.css
+[info] [2025-08-08T05:30:26.455Z] : [react-plugin]:  
+[debug] [2025-08-08T05:30:27.066Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/webapp 
+
+[debug] [2025-08-08T05:30:30.205Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 08 Aug 2025 05:30:28 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-08T05:30:30.296Z] : 
+[info] [2025-08-08T05:30:30.297Z] : Executing predeploy script in D:\Catalyst-React\Simple Recat dashboard\appsail-nodejs
+[debug] [2025-08-08T05:30:30.297Z] : Executing command > npm install
+[info] [2025-08-08T05:30:30.298Z] : > npm install
+[debug] [2025-08-08T05:30:46.543Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/6134000000154305/appsail/upsert 
+
+[debug] [2025-08-08T05:30:59.457Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 08 Aug 2025 05:30:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-08-08T05:30:59.467Z] : 
+[info] [2025-08-08T05:30:59.469Z] : √ client: deploy successful
+[info] [2025-08-08T05:30:59.470Z] : i client: URL => https://simplereactdashboard-827123197.development.catalystserverless.com/app/index.html
+[info] [2025-08-08T05:30:59.471Z] : 
+[info] [2025-08-08T05:30:59.474Z] : i AppSail(backend): URL => https://backend-10102269729.development.catalystappsail.com
+[info] [2025-08-08T05:30:59.476Z] : √ AppSail(backend): deploy successful
+[info] [2025-08-08T05:30:59.477Z] : 
+[info] [2025-08-08T05:30:59.478Z] : √ Catalyst deploy complete!
+[debug] [2025-08-08T05:30:59.480Z] : NO ERRORS REGISTERED
+[debug] [2025-08-08T05:30:59.481Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-08-08T05:30:59.481Z] : TOTAL DURATION OF COMMAND EXEC : 62384
+[debug] [2025-08-08T05:30:59.567Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-08-08T05:31:00.880Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 08 Aug 2025 05:30:59 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-08-08T05:31:00.882Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-08-08T05:31:00.885Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
